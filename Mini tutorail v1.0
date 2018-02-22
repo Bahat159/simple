@@ -8,9 +8,11 @@ Tutorial By Busari Habibullaah
 
  Introduction
 
-Simple is a mini Language, developed as a project during the year 2017, it is still evolving, it is not strongly Typed like C, C++, or Java. It extensively support Object oriented programming. 
-It was created as simple to understand programming language, even simpler than python and other simple languages. Expereienced programmers should be able to adapt to most of the eamples in these tutorial, beginner programmer should read the pages line by line to fully understand the language. 
-                                                                                                                   Busari Habibullaah.
+Simple is a mini Language, developed as a project during the year 2017, it is still evolving, it is not strongly Typed like C, 
+C++, or Java. It extensively support Object oriented programming. It was created as simple to understand programming language, 
+even simpler than python and other simple languages. Expereienced programmers should be able to adapt to most of the eamples 
+in these tutorial,beginner programmer should read the pages line by line to fully understand the language. 
+                                                                                                    Busari Habibullaah.
 
 
  Getting Started
@@ -40,8 +42,8 @@ Or it could siply be written as:
 
 display "Hello World!"
 
-where /crlf/ are optional. cr means Carriage Return while lf means Line Feed, both cr and lf are escape sequence which makes the program output more readable.
-There is no need for excessive braces but it makes the code more readable.
+where /crlf/ are optional. cr means Carriage Return while lf means Line Feed, both cr and lf are escape sequence which makes 
+the program output more readable.There is no need for excessive braces but it makes the code more readable.
 
 Variables Declaration
 This program claculate and prints a table of farenheit temperatures and their centigrade or celcius eqivalent.
@@ -58,7 +60,8 @@ for i = lower to upper
       fahr = fahr + step;
 end
 
-Simple provides no real data types, therefore prefixing data types before your varible declaration is not needed otherwise it returns unexpected result. The  most basic example of declaring and assigning values to a varible in simple is: 
+Simple provides no real data types, therefore prefixing data types before your varible declaration is not needed otherwise it 
+returns unexpected result. The  most basic example of declaring and assigning values to a varible in simple is: 
 
 lower = 0;
 upper = 300;
@@ -68,9 +71,8 @@ fahr = lower;
 step = fahr;
 
 
-Note: you will not declare variables surplus of requirement, programmers familiar with python programming should understand this clearly. You declare on the go pattern, as needed.
-
-
+Note: you will not declare variables surplus of requirement, programmers familiar with python programming should understand this 
+clearly. You declare on the go pattern, as needed.
 
 
  Conditional Expressions
@@ -98,7 +100,9 @@ end
 
 ElIf
 
-This sequence of if statements isthe most general way of writing a multi-way decision. The expressions are evaluated in order. If an expression is true, the statement associated with it is executed, and this terminates thewhole chain. As always, the code for each statement is either a single statement, or a group of them.
+This sequence of if statements isthe most general way of writing a multi-way decision. The expressions are evaluated in order. 
+If an expression is true, the statement associated with it is executed, and this terminates thewhole chain. As always, the code 
+for each statement is either a single statement, or a group of them.
 
 The construction
 
@@ -221,7 +225,8 @@ end
 
  Do-While
 
-The while and for loops test the termination condition at the top. By contrast, the third loop in C, the do-while , tests at the bottom after making each pass through the loop body; the body is always executed at least once. The syntax of the do is
+The while and for loops test the termination condition at the top. By contrast, the third loop in C, the do-while , tests at the
+bottom after making each pass through the loop body; the body is always executed at least once. The syntax of the do is
 
               do
                 statement
@@ -259,10 +264,10 @@ display "you cant see me"
 
 
 Block and Program Structure
-block in simple are like Function in C or C++, Methods in Java and all other programming languages using block break large tasks into smaller ones, and enable programmers to build on what
-others have done instead of starting over from scratch. Using block hide details of
-operation from parts of the program that don't need to know about them, thus clarifying the
-whole, and easing the pain of making changes.
+block in simple are like Function in C or C++, Methods in Java and all other programming languages using block break large tasks 
+into smaller ones, and enable programmers to build on whatothers have done instead of starting over from scratch. Using block 
+hide details ofoperation from parts of the program that don't need to know about them, thus clarifying thewhole, and easing the 
+pain of making changes.
 
 block mainone() {
 	return 1021 ;
@@ -271,7 +276,8 @@ block mainone() {
 block maintwo(one, two) 
 	return one * two ;
 
-Using block you can choose to return or not to return any value. Instead of using the the void type for the non-return functions in C, and Int or other fundamental data types in other strongly typed programming languages to return.
+Using block you can choose to return or not to return any value. Instead of using the the void type for the non-return functions 
+in C, and Int or other fundamental data types in other strongly typed programming languages to return.
 
 The Call Statement
  The call statement in simple works just like the import statement in java, include file in C or C++.
